@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px;
+
+background:#222;
+
+color:white;
+
+}
+
+
+.navbar a{
+
+color:white;
+text-decoration:none;
+margin:15px;
+
+}
+
+
+.container{
+
+padding:30px;
+
+}
+
+
+.cards{
+
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+
+.card{
+
+background:white;
+
+padding:20px;
+
+width:300px;
+
+border-radius:10px;
+
+box-shadow:0 4px 10px gray;
+
+}
+
+
+.form{
+
+width:350px;
+
+margin:50px auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+
+input,textarea{
+
+padding:12px;
+
+font-size:16px;
+
+}
+
+
+button{
+
+padding:12px;
+
+background:#222;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+
+
+.form input,
+.form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.form button {
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
